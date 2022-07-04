@@ -1,0 +1,164 @@
+/*
+ * Skins
+ */
+/* Simple skin */
+.simple .ccchildpage {
+  background: #eee;
+  /* Fallback ... */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 100%);
+  /* W3C */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #333;
+}
+.simple .ccchildpage a {
+  color: blue;
+  text-decoration: underline;
+}
+.simple .ccpages_more {
+  text-align: right;
+  font-style: italic;
+}
+.simple .ccpages_more a {
+  text-decoration: none;
+}
+
+.simple .ccsubpages {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #999;
+  padding: .5em;
+}
+/* End of Simple skin */
+/* Red skin */
+.ccred .ccchildpage {
+  background: #fee;
+  /* Fallback ... */
+  background: -moz-linear-gradient(top, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0.1) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 0, 0, 0.3)), color-stop(100%, rgba(255, 0, 0, 0.1)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0.1) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0.1) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0.1) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0.1) 100%);
+  /* W3C */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #333;
+}
+.ccred .ccchildpage a {
+  color: blue;
+  text-decoration: underline;
+}
+.ccred .ccpages_more {
+  text-align: right;
+  font-style: italic;
+}
+.ccred .ccpages_more a {
+  text-decoration: none;
+}
+.ccred .ccsubpages {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #f99;
+  padding: .5em;
+}
+/* End of Red skin */
+/* Blue skin */
+.ccblue .ccchildpage {
+  background: #eef;
+  /* Fallback ... */
+  background: -moz-linear-gradient(top, rgba(0, 0, 255, 0.3) 0%, rgba(0, 0, 255, 0.1) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 255, 0.3)), color-stop(100%, rgba(0, 0, 255, 0.1)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.3) 0%, rgba(0, 0, 255, 0.1) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 255, 0.3) 0%, rgba(0, 0, 255, 0.1) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 255, 0.3) 0%, rgba(0, 0, 255, 0.1) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.3) 0%, rgba(0, 0, 255, 0.1) 100%);
+  /* W3C */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #333;
+}
+.ccblue .ccchildpage a {
+  color: blue;
+  text-decoration: underline;
+}
+.ccblue .ccpages_more {
+  text-align: right;
+  font-style: italic;
+}
+.ccblue .ccpages_more a {
+  text-decoration: none;
+}
+.ccblue .ccsubpages {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #99f;
+  padding: .5em;
+}
+/* End of Blue skin */
+/* Green skin */
+.ccgreen .ccchildpage {
+  background: #efe;
+  /* Fallback ... */
+  background: -moz-linear-gradient(top, rgba(0, 255, 0, 0.3) 0%, rgba(0, 255, 0, 0.1) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 255, 0, 0.3)), color-stop(100%, rgba(0, 255, 0, 0.1)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 255, 0, 0.3) 0%, rgba(0, 255, 0, 0.1) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 255, 0, 0.3) 0%, rgba(0, 255, 0, 0.1) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 255, 0, 0.3) 0%, rgba(0, 255, 0, 0.1) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 255, 0, 0.3) 0%, rgba(0, 255, 0, 0.1) 100%);
+  /* W3C */
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #333;
+}
+.ccgreen .ccchildpage a {
+  color: blue;
+  text-decoration: underline;
+}
+.ccgreen .ccpages_more {
+  text-align: right;
+  font-style: italic;
+}
+.ccgreen .ccpages_more a {
+  text-decoration: none;
+}
+.ccgreen .ccsubpages {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid #9f9;
+  padding: .5em;
+}
+/* End of Green skin */
